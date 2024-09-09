@@ -1,0 +1,5 @@
+aij_multiagent_rl @ git+https://github.com/AIRI-Institute/aij_multiagent_rl.git
+torch>=2.1.0
+omegaconf>=2.3.0
+tqdm
+matplotlib
