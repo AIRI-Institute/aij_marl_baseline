@@ -251,7 +251,7 @@ def test_agents_selfplay(
 
     Raises:
         UserWarning: If average get action time by agents exceeds
-            4 milliseconds
+            `config.wall_time_threshold` milliseconds
     """
     # Assign agents with valid keys from environment
     rlp = RandomLoopedPop(options=list(submission_agents.keys()))
