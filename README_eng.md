@@ -65,3 +65,8 @@ configuration (see Limitations paragraph in the [description](https://dsworks.ru
 warning could be ignored, otherwise you should pay attention to it.
 
 __We strongly recommend to run tests for submission before sending it.__
+
+## Docker
+Repository also includes [Docker files](docker) which can be used to
+reconstruct testing system's environment in which your submission will be run
+as well as for local development.
