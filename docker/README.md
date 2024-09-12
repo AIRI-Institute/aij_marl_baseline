@@ -11,7 +11,7 @@ chex==0.1.86
 distrax==0.1.5
 flax==0.8.1
 gymnasium==0.28.1
-jax==0.4.24
+jax[cuda12]==0.4.24
 matplotlib==3.8.1
 numpy==1.26.4
 omegaconf==2.3.0
